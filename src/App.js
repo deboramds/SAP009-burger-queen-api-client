@@ -1,4 +1,5 @@
 import hbIMG from './assets/hamburguer.png'
+import auth from './auth'
 
 import './styles.css'
 function App() {
@@ -7,7 +8,6 @@ function App() {
       <div className="container-login">
         <div className="wrap-login">
           <form className="login-form">
-            <span className="login-form-title">Bem-vindo!</span>
             <span className="login-form-title">
               <img src={hbIMG} alt="logo hamburguer" ></img>
             </span> 
@@ -23,7 +23,7 @@ function App() {
                 <button className='login-form-btn'>Login</button>
                 <div className='text-center'>
                   <span className='txt1'>Não possui uma conta? </span>
-                  <a classeName="txt2" href='#'>Criar conta</a>
+                  <a className="txt2" href='#'>Criar conta</a>
                 </div>
               </div>
             </div>
